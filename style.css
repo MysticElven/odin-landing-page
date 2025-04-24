@@ -13,9 +13,16 @@ body {
     flex-direction: column;
 }
 
+.container {
+    width:100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px;
 }
 
@@ -35,3 +42,34 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* first section */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section { 
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 64px;
+}
+
+.main .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.main .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main .button {
+    background-color: #3882f6;
+    padding: 8px 16px;
+}
+
