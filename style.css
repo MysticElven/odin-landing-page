@@ -42,11 +42,17 @@ body {
     flex-direction: column;
 }
 
-.section { 
+.hero-section {
+    padding: 72px;
+}
+
+.hero-section .section-container {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    padding: 72px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .main .title {
@@ -70,6 +76,12 @@ body {
 .plant-section { 
     background-color: #fff;
     padding: 72px;
+}
+
+.plant-section .plant-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .plant-section img {
