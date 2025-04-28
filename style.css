@@ -16,6 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 32px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .header h3 {
@@ -51,7 +54,7 @@ body {
     justify-content: space-between;
     gap: 32px;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: auto;
 }
 
