@@ -67,6 +67,11 @@ body {
 
 /* plant section */
 
+.plant-section { 
+    background-color: #fff;
+    padding: 72px;
+}
+
 .plant-section img {
     width:250px;
     height:250px;
