@@ -15,7 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 32px;
 }
 
 .header h3 {
@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    margin: 64px;
+    padding: 72px;
 }
 
 .main .title {
